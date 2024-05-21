@@ -1,0 +1,85 @@
+h1{
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-family: cursive;
+    margin-top: -1%;
+}
+
+body{
+    background-color: whitesmoke;
+    position: relative;
+}
+
+button{
+    height: 230px;
+    width: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border: solid black 3px;
+
+}
+
+#box{
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+#box2{
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+    background: rgba(129,126,126,0.7);
+    display: none;
+}
+
+#pop_up{
+    border: solid 4px black;
+    height: 55%;
+    width: 55%;
+    top: 18%;
+    left: 25%;
+    position: absolute;
+    visibility: hidden;
+}
+
+#cancel{
+    font-size: x-large;
+    font-family: cursive;
+    font-weight: bolder;
+    position: absolute;
+    top: 11%;
+    left: 78%;
+    visibility: hidden;
+    cursor:pointer;
+}
+
+#left{
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#right{
+    position: absolute;
+    top: 38%;
+    right: 5%;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#small{
+    margin-left: 10%;
+    position: absolute;
+    visibility: hidden;
+    top: 76%;
+}
+
+#small img{
+    border: solid black 4px;
+    cursor: pointer;
+}

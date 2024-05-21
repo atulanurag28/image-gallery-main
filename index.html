@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIGHTBOX PHOTOGALLARY</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--FONT AWESOME LINK-->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
+</head>
+<body>
+    
+    <h1>PHOTOGALLARY</h1>
+
+    <div id="box">
+        <table>
+            <tr>
+                <td>
+                    <button type="button" style="background-image: url(img1.jfif);" id="1" onclick="show(this.id)"></button>
+                </td>
+                <td>
+                    <button type="button" style="background-image: url(img2.jfif);" id="2" onclick="show(this.id)"></button>
+                </td>
+                <td>
+                    <button type="button" style="background-image: url(img3.jfif);" id="3" onclick="show(this.id)"></button>
+                </td>
+                <td>
+                    <button type="button" style="background-image: url(img4.jfif);" id="4" onclick="show(this.id)"></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" style="background-image: url(img5.jpeg);" id="5" onclick="show(this.id)"></button>
+                </td>
+                <td>
+                    <button type="button" style="background-image: url(img6.jfif);" id="6" onclick="show(this.id)"></button>
+                </td>
+                <td>
+                    <button type="button" style="background-image: url(img7.jfif);" id="7" onclick="show(this.id)"></button>
+                </td>
+                <td>
+                    <button type="button" style="background-image: url(img8.jfif);" id="8" onclick="show(this.id)"></button>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div id="box2"></div>
+    <div id="pop_up"></div>
+    <div id="cancel" onclick="cancel()">X</div>
+    <div id="left" onclick="left()"><i class="fas fa-chevron-left" style="font-size:xxx-large;"></i></div>
+    <div id="right" onclick="right()"><i class="fas fa-chevron-right" style="font-size: xxx-large;"></i> </div>
+    <div id="small">
+        <table>
+            <tr>
+                <td onclick="show('1')"><img src="img1.jfif" height="120px" width="120px"></td>
+                <td onclick="show('2')"><img src="img2.jfif" height="120px" width="120px"></td>
+                <td onclick="show('3')"><img src="img3.jfif" height="120px" width="120px"></td>
+                <td onclick="show('4')"><img src="img4.jfif" height="120px" width="120px"></td>
+                <td onclick="show('5')"><img src="img5.jpeg" height="120px" width="120px"></td>
+                <td onclick="show('6')"><img src="img6.jfif" height="120px" width="120px"></td>
+                <td onclick="show('7')"><img src="img7.jfif" height="120px" width="120px"></td>
+                <td onclick="show('8')"><img src="img8.jfif" height="120px" width="120px"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!--EXTERNAL JAVASCRIPT FILE ATTACH HERE-->
+    <script src="script.js"></script>
+    
+</body>
+</html>
